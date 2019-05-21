@@ -1,0 +1,134 @@
+body{
+	background-color: #E2E3E5;
+	font-family: Arial;
+	font-size: 80%;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.body
+{
+	margin: 0 auto;
+	width: 90%;
+	clear: both;
+}
+a
+{
+	text-decoration: none; 
+}
+a:link, a:visited
+{
+
+}
+a:hover, a:active 
+{
+
+}
+.MainHeader img
+{
+	width: 90%;
+	height: 100px;
+	margin: 2% 0%;
+	
+}
+.SignUpLogin
+{
+	padding-left: 1%; 
+	margin-top: 5%;
+	height: 100px;
+	width: 9%;
+	float: right;
+	
+}
+.MainHeader nav
+{
+	
+	height: 35px;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+
+}
+.MainHeader nav ul
+{
+
+	list-style: none;
+	margin: 0 auto; 
+	padding-left: 0px;
+	display: inline;
+	overflow: hidden; 
+}
+.MainHeader nav ul li
+{	
+	background-color: #333;
+	width:229px;
+	line-height: 35px;
+	position: relative;
+	text-align: left;
+
+	float: left;
+	padding-left: 1%;
+	box-shadow: 0px 2px 5px 0px black;
+	overflow: hidden;
+	
+}
+
+.MainHeader nav a:link, .MainHeader nav a:visited
+{
+	color: #fff;
+	height: 33px;
+	width: 170px;
+	display: inline-block;
+
+}
+.MainHeader nav a:hover, .Mainheader nav a:active
+{	
+
+	font-weight: bold;
+	border-bottom: 2px solid #fff;
+}
+.MainHeader nav ul li ul
+{
+	display: none;
+}
+
+.MainHeader nav ul li:hover ul
+{
+	display: block;
+}
+.MainContent
+{
+	width: 80%;
+	line-height: 1.5;
+}
+
+.content
+{	
+	padding: 20px 20px 20px 20px;
+	margin: 2% 0%;
+	border-radius: 7px;
+	background-color: #666;
+	width: 50%;
+	height: 200px;
+}
+.content content
+{
+	
+	word-wrap:break-word;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.body
+	{
+
+		width: 90%;
+		clear: both;
+	}
+	.MainHeader img
+	{
+		width: 100%
+	}
+}

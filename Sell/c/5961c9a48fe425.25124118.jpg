@@ -1,0 +1,27 @@
+#include <stdio.h>
+int num,i,j,pos,temp,newnum;
+int n[100];
+int main()
+{
+printf("How many numbers you want?\n");
+scanf("%d",&num);
+printf("Enter the numbers\n");
+for(i=0;i<num;i++)
+{
+scanf("%d", &n[i]);
+}
+printf("Array of integers\n");
+for(i=0;i<num;i++)
+{
+printf("n[%d]=%d\n",i,n[i]);
+}
+printf("Enter the number you want to search\n");
+scanf("%d",&newnum);
+for(i=0;i<num;i++)
+{
+if (n[i]==newnum)
+break;
+}
+printf("The number %d is in %d position",newnum,i+1);
+
+}

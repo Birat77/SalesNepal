@@ -1,0 +1,171 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: open-sans;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+div#header {
+ height: 55px;
+ background-color:  #333333; 
+ margin: 1px auto;
+}
+
+.logo{
+	float: left;
+	margin-top: 10px; 
+	margin-left: 10px;
+}
+
+.logo a {
+	font-size: 1.6em;
+	color: #fff;
+}
+
+.logo a span {
+	font-weight: 100;
+	font-style: italic;
+	color: orange;
+}
+
+div#container {
+	width: 100%;
+	margin: 0 auto;
+}
+#button{
+    float: right;
+    margin-right: 5%;
+    align-self: center;
+}
+
+.sidebar {
+	width: 250px;
+	background: #242d37;
+	float: left; 
+    padding-right: 1px;
+    border-radius: 4%;
+}
+
+ul#nav{
+
+}
+
+ul#nav li {
+	list-style: none;
+}
+ul#nav li a {
+  color: #ccc;
+  display: block;
+  padding: 10px;
+  font-size: 0.8em;
+  border-bottom: 1px solid #444;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-ms-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+
+ul#nav li a:hover {
+ background: #19222e; 
+ color: #fff;
+}
+
+ul#nav li a.selected{
+	background: #19222e;
+	color:#fff;
+}
+
+
+.content {
+	width: auto;
+	height: 100%;
+	background: #f0f5f5;
+	margin-left: 250px;
+	padding: 15px;
+    height: 900px;
+}
+
+.content p {
+	color: #424242;
+	font-size: 0.8em;
+    
+}
+
+div#box {
+	margin-top: 15px;
+}
+
+div#box .box-top {
+	color: #fff;
+	text-shadow: 0 1px #000;
+	background: #2980b9;
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300;
+} 
+
+div#box .box-panel {
+	padding: 15px;
+	background: #fff;
+    color: #333;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+a.mobile {
+	display: block;
+	color: #fff;
+	background: #000;
+	text-align: center;
+	padding: 7px; 
+	cursor: pointer;
+}
+
+a.mobile:active{
+	background: #474747;
+}
+
+
+.sidebar {
+	width: 100%;
+	display: none;
+	height: auto;
+}
+
+.content {
+   margin-left: 0;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 480px) {
+
+.sidebar {
+	min-height: 900px;
+	display: block;
+}
+
+a.mobile {
+	display: none;
+}
+
+
+}

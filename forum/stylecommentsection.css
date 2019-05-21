@@ -1,0 +1,79 @@
+textarea{
+	width: 400px;
+	height: 80px;
+	background-color: #fff;
+	resize: none; 
+}
+
+button{
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+body{
+	background-color: #d7eaf7;
+}
+.comment_box{
+	width: 850px;
+	padding: 10px;
+	margin-bottom: 4px;
+	background-color: #fff; 
+	border-radius: 5px;
+	position: relative;
+}
+
+.comment_box P{
+	font-family: arial;
+	font-size: 14px; 
+	font-weight: 100;
+	font-height: 14px;
+	color: #282828;
+
+}
+
+.edit_form{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+}
+
+.edit_form button{
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity:0.7;
+	
+}
+
+.edit_form button:hover{
+	opacity: 1;
+}
+
+.delete_form{
+	position: absolute;
+	top: 0px;
+	right: 65px;	
+}
+
+.delete_form button{
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity:0.7;	
+}
+
+.delete_form button:hover{
+	opacity: 1;
+}
+
+.reply_form{
+	
+}
